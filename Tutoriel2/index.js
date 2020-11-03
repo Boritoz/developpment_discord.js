@@ -21,7 +21,7 @@ fs.readdir("./commands/", (err, files) => {
 });
 
 client.on('ready', () => { // Evénement qui s'execute au démarrage
-    console.log(`Connéctée avec pour nom ${client.user.tag}.`); // Affichage d'uen réponce dans la console
+    console.log(`Connéctée avec pour nom ${client.user.tag}.`); // Affichage d'une réponce dans la console
 });
 
 client.on('message', async (message) => { // Evénement qui s'execute lorsqu'un message est envoyé
